@@ -1,0 +1,17 @@
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+  Exclude:
+    - 'node_modules/**/*'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+    - '.git/**/*'
+    - 'bin/**/*'
+    - 'db/schema.rb'
+
+Style/Documentation:
+  Enabled: false 
+
+Style/FrozenStringLiteralComment:
+  Enabled: false 
+
